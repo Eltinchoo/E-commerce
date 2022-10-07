@@ -54,7 +54,7 @@ const CartSideBar = ({ show, handleClose }) => {
               </ListGroupItem>
             ))}
           </ListGroup>
-          <b>Total: {total}</b>
+          <b>Total: ${total}</b>
           <br />
           <Button
             onClick={() => dispatch(purchaseCartThunk())}
