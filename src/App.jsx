@@ -9,7 +9,7 @@ import ProductDetail from "./pages/ProductDetail";
 import Purchases from "./pages/Purchases";
 import { useDispatch, useSelector } from "react-redux";
 import { getNewProductsThunk } from "./store/slices/newProducts.slice";
-//import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 import ProtectedRoute from "./components/ProtectedRoute";
 import { Container } from "react-bootstrap";
 
@@ -32,6 +32,7 @@ function App() {
         </Route>
       </Routes>
       </Container>
+      <Footer/>
     </HashRouter>
   );
 }
