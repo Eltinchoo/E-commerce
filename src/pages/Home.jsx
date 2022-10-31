@@ -49,7 +49,7 @@ const Home = () => {
     dispatch(addCartThunk(cartItem));
   };
   return (
-    <Row>
+    <Row className="container-gral">
       <Col lg={2}>
         <InputGroup className="mb-3">
           <Form.Control

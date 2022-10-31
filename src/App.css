@@ -7,7 +7,11 @@
 .App {
   width: 100%;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
+
 .input-search {
   width: 80px;
 }
@@ -166,4 +170,7 @@ li {
   background-color: rgb(22, 175, 147);
   margin-top: 0;
   height: 60px;
+}
+.footer-text{
+color: white;
 }
