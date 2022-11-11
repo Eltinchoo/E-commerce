@@ -18,7 +18,7 @@ const Home = () => {
   useEffect(() => {
     axios
       .get(
-        "https://ecommerce-api-react.herokuapp.com/api/v1/products/categories"
+        "https://e-commerce-api.academlo.tech/api/v1/products/categories"
       )
       .then((res) => setCategories(res.data.data.categories));
   }, []);
@@ -89,7 +89,7 @@ const Home = () => {
                 <img
                   onClick={() => navigate(`/product-detail/${newProduct.id}`)}
                   className="product-img"
-                  src={newProduct.productImgs}
+                  src={newProduct.productImgs[0]}
                   alt=""
                 />
                 <hr />

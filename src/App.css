@@ -1,7 +1,8 @@
 #root {
   width: 100%;
   min-height: 100vh;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 .App {
@@ -9,9 +10,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  flex: 1;
 }
-
 .input-search {
   width: 80px;
 }
@@ -168,9 +167,11 @@ li {
 }
 .footer {
   background-color: rgb(22, 175, 147);
-  margin-top: 0;
-  height: 60px;
+padding:20px;
+  
 }
 .footer-text{
 color: white;
+font-weight: lighter;
+font-size: 15px;
 }
