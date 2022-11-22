@@ -29,13 +29,17 @@ const Login = () => {
 
   return (
     <div  className="user-login">
-      
+      <div className="user-john">
+       <h4 className="user-test"> <span className="test">User:</span>  john@gmail.com</h4> 
+        <h4 className="user-test"> <span className="test">Password:</span>  john1234 </h4>
+      </div>
       <h2>Hello! Please log in</h2>
       <Form
       className="form-login"
         onSubmit={handleSubmit(submit)}
         style={{
-        marginTop:"60px",
+        marginTop:"30px",
+        marginBottom:"80px",
           border: "1px  solid    rgb(22, 175, 147)",
           borderRadius: "10px",
           marginRight: "50px",
