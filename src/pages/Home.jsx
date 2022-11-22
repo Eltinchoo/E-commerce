@@ -49,6 +49,7 @@ const Home = () => {
     dispatch(addCartThunk(cartItem));
   };
   return (
+    <div className="first-container">
     <Row className="container-gral">
       <Col lg={2}>
         <InputGroup className="mb-3">
@@ -81,7 +82,7 @@ const Home = () => {
         </ListGroup>
       </Col>
 
-      <Col>
+      <Col >
         <div className="products-container">
           <ul>
             {newFiltered.map((newProduct) => (
@@ -115,6 +116,7 @@ const Home = () => {
         </div>
       </Col>
     </Row>
+    </div>
   );
 };
 

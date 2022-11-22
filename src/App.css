@@ -9,7 +9,15 @@
   width: 100%;
   min-height: 100vh;
   display: flex;
+}
+.first-container {
+  display: flex;
+ 
+}
+.container-gral {
+  display: flex;
   flex-direction: column;
+  flex: 1;
 }
 .input-search {
   width: 80px;
@@ -167,11 +175,11 @@ li {
 }
 .footer {
   background-color: rgb(22, 175, 147);
-padding:20px;
-  
+  padding: 20px;
+  flex: 1;
 }
-.footer-text{
-color: white;
-font-weight: lighter;
-font-size: 15px;
+.footer-text {
+  color: white;
+  font-weight: lighter;
+  font-size: 15px;
 }
